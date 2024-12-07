@@ -1,0 +1,60 @@
+@media screen and (max-width: 480px) {
+    .width {
+        width: 300px;
+    }
+
+    section {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nameValue {
+        width: 300px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        height: 20px;
+        width: 300px;
+    }
+
+
+    .btnAdd {
+        margin: 10px 0 0 0;
+    }
+    .h4TargetBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .target {
+        height: 300px;
+        width: 300px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0 0 0;
+        gap: 10px;
+    }
+    .item{
+        text-align:center;
+    }
+}

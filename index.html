@@ -1,23 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-main.css">
+    <link rel="stylesheet" href="css/style-tablet.css">
+    <link rel="stylesheet" href="css/style-phone.css">
+
 </head>
 <body>
-<h1>TEST</h1>
-<form>
-    <label for="nameValue">Name/Value Pair</label>
-        <input type="text" id="nameValue" name="nameValue">
-<button>Add</button>
-</form>
-<div class="value1"></div>
-    <button>Sort by Name</button>
-    <button>Sort by Value</button>
-    <button>Delete</button>
+<div class="width">
+    <section>
+        <h1>TEST</h1>
+        <form>
+            <div>
+                <label for="nameValue">Name/Value Pair</label>
+                <input type="text" id="nameValue" name="valueNamePair">
+                <p class="hint"></p>
+            </div>
+
+            <button class="btn btnAdd">Add</button>
+        </form>
+        <div class="wrapper">
+            <div class="h4TargetBlock">
+                <h4>Name/Value Pair List</h4>
+                <div class="target"></div>
+            </div>
+
+            <div class="buttons">
+                <button class="btn btnSortByName">Sort by Name</button>
+                <button class="btn btnSortByValue">Sort by Value</button>
+                <button class="btn btnDelete">Delete</button>
+            </div>
+
+        </div>
+    </section>
+</div>
 
 <script src="main.js"></script>
-
 </body>
 </html>

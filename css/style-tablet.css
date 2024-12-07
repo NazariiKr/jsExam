@@ -1,0 +1,50 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .width {
+        width: 480px;
+    }
+
+    section {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nameValue {
+        width: 400px;
+        height: 20px;
+    }
+
+    .btn {
+        height: 20px;
+        width: 100px;
+    }
+
+    .btnAdd {
+        margin: 18px 0 0 150px;
+    }
+
+    .wrapper {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .target {
+        height: 400px;
+        width: 400px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin: 18px 0 0 0;
+        gap: 50px;
+    }
+
+}

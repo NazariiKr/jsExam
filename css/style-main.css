@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width {
+    margin: 0 auto;
+    width: 768px;
+}
+
+section {
+    margin-left: 59px;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+}
+
+#nameValue {
+    width: 500px;
+    height: 30px;
+}
+
+.btn {
+    height: 30px;
+    width: 100px;
+}
+
+.btnAdd {
+    margin: 18px 0 0 50px;
+}
+
+form label {
+    display: block;
+    opacity: 0.5;
+}
+
+.hint {
+    color: red;
+    font-size: 18px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+}
+
+.h4TargetBlock h4 {
+    opacity: 0.5;
+}
+
+.target {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0 0 50px;
+    gap: 20px;
+}
+.item{
+    text-align:start;
+}
